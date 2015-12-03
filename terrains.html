@@ -2,8 +2,8 @@
 <html>
 
 <head>
-   <link type="text/css" rel="stylesheet" href="terrains.css"/>
-   <script type='text/javascript' src='terrains.js'></script>
+   <link type="text/css" rel="stylesheet" href="CSS/terrains.css"/>
+   <script type='text/javascript' src='JS/terrains.js'></script>
 
    <title>
     Appli tournoi: terrains
@@ -11,11 +11,78 @@
    <meta charset="utf-8">
    <meta name="description" content="appli_terrains" />
 </head>
-
 <body>
 
+<header>
+  <div class="header">
+    <div class="accueil">
+      <strong><h1>ACCUEIL</h1></strong>
+    </div>
+    <div class="titre">
+      <strong><h1>LES TERRAINS</h1></strong>
+    </div>
+  </div>
+</header>
 
+<section>
 
+  <div id="section_1">
+      <div class="terrain">
+                <strong><h1>TERRAIN 1</h1></strong>
+                <a href="http://google.com" onclick="window.open(this.href,'popup','height=550 , width=750 , location=no, top=100, left=250');return false;">
+                <input class="button_terrain" type="button" value="DETAILS" /></a>
+      </div>
+      <div class="match">
+          <div class="equipes" id="equipe1">
+          </div>
+          <div class="versus">
+            <button onclick="tirageAuSort();"><strong><p>VERSUS</p></strong></button>
+          </div>
+          <div class="equipes" id="equipe2">
+          </div>
+      </div>
+  </div>
+
+<hr>
+
+<div id="section_2">
+  <div class="terrain">
+    <strong><h1>TERRAIN 2</h1></strong>
+    <a href="http://google.com" onclick="window.open(this.href,'popup','height=550 , width=750 , location=no, top=100, left=250');return false;">
+    <input class="button_terrain" type="button" value="DETAILS" /></a>
+  </div>
+    <div class="match">
+      <div class="equipes" id="equipe3">
+      </div>
+      <div class="versus">
+        <button onclick="tirageAuSort();"><strong><p>VERSUS</p></strong></button>
+      </div>
+      <div class="equipes" id="equipe4">
+      </div>
+      </div>
+</div>
+<hr>
+  <div id="section_3">
+  <div class="terrain">
+    <strong><h1>TERRAIN 3 </h1></strong>
+    <a href="http://google.com" onclick="window.open(this.href,'popup','height=550 , width=750 , location=no, top=100, left=250');return false;">
+    <input class="button_terrain" type="button" value="DETAILS" /></a>
+  </div>
+  <div class="match">
+    <div class="equipes" id="equipe5">
+    </div>
+    <div class="versus">
+      <button onclick="tirageAuSort();"><strong><p>VERSUS</p></strong></button>
+    </div>
+    <div class="equipes" id="equipe6">
+    </div>
+  </div>
+  </div>
+
+</section>
+
+<footer>
+</footer>
 </body>
 
 </html>
