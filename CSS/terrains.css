@@ -169,37 +169,11 @@ margin-left:135px;
   border: 2px solid black;
 }
 
-#mt1_1 {
-  color:black;
-  font-size:20px;
-  display:none;
-}
-#mt1_1_2 {
-  color:black;
-  font-size:20px;
-  display:none;
-}
 
-#mt1_2 {
+.equipes p {
+  display:none;
   color:black;
   font-size:20px;
-  display:none;
-}
-#mt1_2_2 {
-  color:black;
-  font-size:20px;
-  display:none;
-}
-
-#mt1_3 {
-  color:black;
-  font-size:20px;
-  display:none;
-}
-#mt1_3_2 {
-  color:black;
-  font-size:20px;
-  display:none;
 }
 
 .matching_button {
