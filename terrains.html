@@ -29,16 +29,33 @@
   <div id="section_1">
       <div class="terrain">
                 <strong><h1>TERRAIN 1</h1></strong>
-                <a href="http://google.com" onclick="window.open(this.href,'popup','height=550 , width=750 , location=no, top=100, left=250');return false;">
+                <a href="file:///home/francois/Documents/Tournoi_de_foot/terrains_details_1.html" onclick="window.open(this.href,'popup','height=550 , width=750 , location=no, top=100, left=250');return false;">
                 <input class="button_terrain" type="button" value="DETAILS" /></a>
       </div>
       <div class="match">
-          <div class="equipes" id="equipe1">
+        <div class="matching">
+            <ul>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_1','mt1_1_2');">Match 1</button></li>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_2','mt1_2_2');">Match 2</button></li>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_3','mt1_3_2');">Match 3</button></li>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_4','mt1_4_2');">Match 4</button></li>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_5','mt1_5_2');">Match 5</button></li>
+              <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt1_6','mt1_6_2');">Match 6</button></li>
+            </ul>
+        </div>
+        <hr>
+          <div class="equipes">
+            <p id="mt1_1"> équipe 1</p>
+            <p id="mt1_2"> équipe 2</p>
+            <p id="mt1_3"> équipe 3</p>
           </div>
-          <div class="versus">
-            <button onclick="tirage_terrain1();"><strong><p>VERSUS</p></strong></button>
+          <div>
+            <button class="button_terrain_versus" onclick="tirage_terrain1();"><strong><p>VERSUS</p></strong></button>
           </div>
-          <div class="equipes" id="equipe2">
+          <div class="equipes">
+             <p id="mt1_1_2"> équipe 2</p>
+             <p id="mt1_2_2"> équipe 3</p>
+             <p id="mt1_3_2"> équipe 5</p>
           </div>
       </div>
   </div>
@@ -52,10 +69,20 @@
     <input class="button_terrain" type="button" value="DETAILS" /></a>
   </div>
     <div class="match">
+      <div class="matching">
+          <ul>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_1','mt2_1_2');">Match 1</button></li>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_2','mt2_2_2');">Match 2</button></li>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_3','mt2_3_2');">Match 3</button></li>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_4','mt2_4_2');">Match 4</button></li>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_5','mt2_5_2');">Match 5</button></li>
+            <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt2_6','mt2_6_2');">Match 6</button></li>
+          </ul>
+      </div>
       <div class="equipes" id="equipe3">
       </div>
-      <div class="versus">
-        <button onclick="tirage_terrain2();"><strong><p>VERSUS</p></strong></button>
+      <div>
+        <button class="button_terrain_versus" onclick="tirage_terrain2();"><strong><p>VERSUS</p></strong></button>
       </div>
       <div class="equipes" id="equipe4">
       </div>
@@ -69,10 +96,20 @@
     <input class="button_terrain" type="button" value="DETAILS" /></a>
   </div>
   <div class="match">
+    <div class="matching">
+        <ul>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_1','mt3_1_2');">Match 1</button></li>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_2','mt3_2_2');">Match 2</button></li>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_3','mt3_3_2');">Match 3</button></li>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_4','mt3_4_2');">Match 4</button></li>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_5','mt3_5_2');">Match 5</button></li>
+          <li> <button class="matching_button" onclick="javascript:afficher_cacher('mt3_6','mt3_6_2');">Match 6</button></li>
+        </ul>
+    </div>
     <div class="equipes" id="equipe5">
     </div>
-    <div class="versus">
-      <button onclick="tirage_terrain3();"><strong><p>VERSUS</p></strong></button>
+    <div>
+      <button class="button_terrain_versus" onclick="tirage_terrain3();"><strong><p>VERSUS</p></strong></button>
     </div>
     <div class="equipes" id="equipe6">
     </div>

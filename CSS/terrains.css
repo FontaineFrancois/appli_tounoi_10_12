@@ -36,7 +36,7 @@ footer {
 }
 
 .titre {
-  margin-left:40px;
+  margin-left:10px;
   float:left;
   height:90px;
   width:40%;
@@ -156,21 +156,85 @@ margin-left:135px;
   float:left;
 }
 
-.versus {
-  color:white;
-  font-size:32px;
-  text-align:center;
-  opacity:0.9;
-  padding-top:70px;
+.matching{
+  height:50px;
+  width:500px;
+  background-color:#40A497;
+  opacity:0.7;
+  margin:5px;
+}
+
+.matching li {
+  display: inline;
+  border: 2px solid black;
+}
+
+#mt1_1 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+#mt1_1_2 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+
+#mt1_2 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+#mt1_2_2 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+
+#mt1_3 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+#mt1_3_2 {
+  color:black;
+  font-size:20px;
+  display:none;
+}
+
+.matching_button {
+  height: 30px;
+  width:60px;
+}
+
+
+
+
+
+
+
+
+.button_terrain_versus {
+  background-color:black;
+  opacity:0.7;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   height:150px;
   width:150px;
   float:left;
+  border:0;
+  margin-top:75px;
+  margin-left:60px;
+  padding-bottom:40px;
 }
-.versus:hover {
+.button_terrain_versus p{
+  font-size:32px;
+  text-align:center;
+  color:white;
+  opacity:0.9;
+}
+.button_terrain_versus:hover {
     -webkit-animation-name: pulse;
     animation-name: pulse;
     -webkit-animation-duration: 1.3s;
@@ -183,14 +247,16 @@ margin-left:135px;
 
 
 .equipes {
-    height:150px;
+    height:100px;
     width:150px;
-    background-color:white;
+    background-color:#40A497;
     float:left;
+    border-radius:30%;
+    margin-top:75px;
+    margin-left:60px;
+    font-size:26px;
     color:black;
-  }
-
-  #equipe1 {
-    font-size:16;
-    color:blue
+    font-weight: :bold;
+    text-align:center;
+    line-height:95px;
   }

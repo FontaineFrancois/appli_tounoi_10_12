@@ -1,0 +1,43 @@
+
+
+body {
+  background-image: url("http://www.opfutsal.com/wp-content/themes/opfutsal/images/bg.jpg");
+  margin:0;
+}
+hr {
+  clear:both;
+  border:0;
+}
+a {
+  text-decoration: none;
+}
+
+
+.header_details {
+  height:100px;
+  width:100%;
+  background-color:black;
+  opacity:0.8;
+}
+
+.titre {
+  margin-left:225px;
+  float:left;
+  height:90px;
+  width:40%;
+}
+.titre h1 {
+  padding-top:10px;
+  color:#1BC442;
+  text-align: center;
+}
+
+.matchs_finis {
+  height:335px;
+  width:80%;
+  background-color:black;
+  opacity:0.8;
+  margin-left:75px;
+  margin-top:55px;
+  border-radius:10%;
+}
